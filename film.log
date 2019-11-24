@@ -1,0 +1,88 @@
+2019-11-21 13:04:27.999  INFO 5487 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5487 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:04:28.005 DEBUG 5487 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:04:28.006  INFO 5487 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:04:28.613  WARN 5487 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:04:29.683  INFO 5487 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:04:30.354  INFO 5487 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:04:30.721  INFO 5487 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.312 seconds (JVM running for 4.456)
+2019-11-21 13:04:30.981 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE UUID=? 
+2019-11-21 13:04:31.158 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==> Parameters: 6(Integer)
+2019-11-21 13:04:31.191 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : <==      Total: 0
+2019-11-21 13:04:31.211  INFO 5487 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:04:31.220  INFO 5487 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:04:48.930  INFO 5493 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5493 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:04:48.931 DEBUG 5493 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:04:48.931  INFO 5493 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:04:49.493  WARN 5493 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:04:50.387  INFO 5493 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:04:51.005  INFO 5493 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:04:51.384  INFO 5493 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.974 seconds (JVM running for 3.951)
+2019-11-21 13:04:51.577 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE UUID=? 
+2019-11-21 13:04:51.730 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==> Parameters: 5(Integer)
+2019-11-21 13:04:51.763 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : <==      Total: 1
+2019-11-21 13:04:51.779  INFO 5493 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:04:51.789  INFO 5493 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:07:04.774  INFO 5498 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5498 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:07:04.776 DEBUG 5498 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:07:04.776  INFO 5498 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:07:05.538  WARN 5498 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:07:06.632  INFO 5498 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:07:07.567  INFO 5498 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:07:08.147  INFO 5498 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.95 seconds (JVM running for 5.963)
+2019-11-21 13:07:08.569 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE user_name = ? 
+2019-11-21 13:07:08.788 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : ==> Parameters: admin(String)
+2019-11-21 13:07:08.842 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : <==      Total: 1
+2019-11-21 13:07:08.884  INFO 5498 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:07:08.897  INFO 5498 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:14:59.445  INFO 5520 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5520 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:14:59.447 DEBUG 5520 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:14:59.447  INFO 5520 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:15:00.005  WARN 5520 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:15:00.767  INFO 5520 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:15:01.311  INFO 5520 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:15:01.685  INFO 5520 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.665 seconds (JVM running for 3.521)
+2019-11-21 13:15:01.903 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user; 
+2019-11-21 13:15:02.049 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
+2019-11-21 13:15:02.078 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : <==      Total: 5
+2019-11-21 13:15:02.094  INFO 5520 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:15:02.101  INFO 5520 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:23:47.497  INFO 5544 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5544 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:23:47.499 DEBUG 5544 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:23:47.499  INFO 5544 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:23:48.279  WARN 5544 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:23:49.368  INFO 5544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:23:50.263  INFO 5544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:23:50.789  INFO 5544 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.828 seconds (JVM running for 5.575)
+2019-11-21 13:23:51.221 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM user 
+2019-11-21 13:23:51.378 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==> Parameters: 
+2019-11-21 13:23:51.421 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user LIMIT ?,? 
+2019-11-21 13:23:51.430 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==> Parameters: 0(Long), 2(Long)
+2019-11-21 13:23:51.443 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : <==      Total: 2
+2019-11-21 13:23:51.479  INFO 5544 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:23:51.490  INFO 5544 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:43:36.785  INFO 6023 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 6023 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:43:36.787 DEBUG 6023 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:43:36.787  INFO 6023 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:43:37.817  WARN 6023 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:43:38.972  INFO 6023 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:43:40.027  INFO 6023 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:43:40.615  INFO 6023 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 4.518 seconds (JVM running for 6.335)
+2019-11-21 13:43:41.124 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: SELECT COUNT(1) FROM user 
+2019-11-21 13:43:41.296 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
+2019-11-21 13:43:41.333 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user; LIMIT ?,? 
+2019-11-21 13:43:41.469  INFO 6023 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:43:41.484  INFO 6023 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-11-21 13:46:12.372  INFO 6028 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 6028 (started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-11-21 13:46:12.373 DEBUG 6028 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2019-11-21 13:46:12.374  INFO 6028 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
+2019-11-21 13:46:12.890  WARN 6028 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-11-21 13:46:13.627  INFO 6028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:46:14.169  INFO 6028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 13:46:14.504  INFO 6028 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.496 seconds (JVM running for 3.452)
+2019-11-21 13:46:14.716 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: SELECT COUNT(1) FROM user 
+2019-11-21 13:46:14.844 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
+2019-11-21 13:46:14.873 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user LIMIT ?,? 
+2019-11-21 13:46:14.876 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 0(Long), 2(Long)
+2019-11-21 13:46:14.882 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : <==      Total: 2
+2019-11-21 13:46:14.898  INFO 6028 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 13:46:14.905  INFO 6028 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
