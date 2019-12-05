@@ -9,7 +9,7 @@ import org.cly.dao.entity.User;
 import org.cly.dao.mapper.UserMapper;
 import org.cly.example.dao.ExampleUserMapper;
 import org.cly.example.dao.entity.ExampleUser;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

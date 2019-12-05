@@ -1,88 +1,106 @@
-2019-11-21 13:04:27.999  INFO 5487 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5487 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:04:28.005 DEBUG 5487 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:04:28.006  INFO 5487 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:04:28.613  WARN 5487 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:04:29.683  INFO 5487 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:04:30.354  INFO 5487 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:04:30.721  INFO 5487 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.312 seconds (JVM running for 4.456)
-2019-11-21 13:04:30.981 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE UUID=? 
-2019-11-21 13:04:31.158 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==> Parameters: 6(Integer)
-2019-11-21 13:04:31.191 DEBUG 5487 --- [main] o.cly.dao.mapper.UserMapper.selectById   : <==      Total: 0
-2019-11-21 13:04:31.211  INFO 5487 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:04:31.220  INFO 5487 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:04:48.930  INFO 5493 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5493 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:04:48.931 DEBUG 5493 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:04:48.931  INFO 5493 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:04:49.493  WARN 5493 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:04:50.387  INFO 5493 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:04:51.005  INFO 5493 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:04:51.384  INFO 5493 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.974 seconds (JVM running for 3.951)
-2019-11-21 13:04:51.577 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE UUID=? 
-2019-11-21 13:04:51.730 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : ==> Parameters: 5(Integer)
-2019-11-21 13:04:51.763 DEBUG 5493 --- [main] o.cly.dao.mapper.UserMapper.selectById   : <==      Total: 1
-2019-11-21 13:04:51.779  INFO 5493 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:04:51.789  INFO 5493 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:07:04.774  INFO 5498 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5498 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:07:04.776 DEBUG 5498 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:07:04.776  INFO 5498 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:07:05.538  WARN 5498 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:07:06.632  INFO 5498 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:07:07.567  INFO 5498 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:07:08.147  INFO 5498 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.95 seconds (JVM running for 5.963)
-2019-11-21 13:07:08.569 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user WHERE user_name = ? 
-2019-11-21 13:07:08.788 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : ==> Parameters: admin(String)
-2019-11-21 13:07:08.842 DEBUG 5498 --- [main] o.cly.dao.mapper.UserMapper.selectList   : <==      Total: 1
-2019-11-21 13:07:08.884  INFO 5498 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:07:08.897  INFO 5498 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:14:59.445  INFO 5520 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5520 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:14:59.447 DEBUG 5520 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:14:59.447  INFO 5520 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:15:00.005  WARN 5520 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:15:00.767  INFO 5520 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:15:01.311  INFO 5520 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:15:01.685  INFO 5520 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.665 seconds (JVM running for 3.521)
-2019-11-21 13:15:01.903 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user; 
-2019-11-21 13:15:02.049 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
-2019-11-21 13:15:02.078 DEBUG 5520 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : <==      Total: 5
-2019-11-21 13:15:02.094  INFO 5520 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:15:02.101  INFO 5520 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:23:47.497  INFO 5544 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 5544 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:23:47.499 DEBUG 5544 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:23:47.499  INFO 5544 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:23:48.279  WARN 5544 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:23:49.368  INFO 5544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:23:50.263  INFO 5544 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:23:50.789  INFO 5544 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 3.828 seconds (JVM running for 5.575)
-2019-11-21 13:23:51.221 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==>  Preparing: SELECT COUNT(1) FROM user 
-2019-11-21 13:23:51.378 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==> Parameters: 
-2019-11-21 13:23:51.421 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==>  Preparing: SELECT UUID,user_name,user_pwd FROM user LIMIT ?,? 
-2019-11-21 13:23:51.430 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : ==> Parameters: 0(Long), 2(Long)
-2019-11-21 13:23:51.443 DEBUG 5544 --- [main] o.cly.dao.mapper.UserMapper.selectPage   : <==      Total: 2
-2019-11-21 13:23:51.479  INFO 5544 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:23:51.490  INFO 5544 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:43:36.785  INFO 6023 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 6023 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:43:36.787 DEBUG 6023 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:43:36.787  INFO 6023 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:43:37.817  WARN 6023 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:43:38.972  INFO 6023 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:43:40.027  INFO 6023 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:43:40.615  INFO 6023 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 4.518 seconds (JVM running for 6.335)
-2019-11-21 13:43:41.124 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: SELECT COUNT(1) FROM user 
-2019-11-21 13:43:41.296 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
-2019-11-21 13:43:41.333 DEBUG 6023 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user; LIMIT ?,? 
-2019-11-21 13:43:41.469  INFO 6023 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:43:41.484  INFO 6023 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-11-21 13:46:12.372  INFO 6028 --- [main] org.cly.FilmApplicationTests             : Starting FilmApplicationTests on changliyaodeMacBook-Pro.local with PID 6028 (started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-11-21 13:46:12.373 DEBUG 6028 --- [main] org.cly.FilmApplicationTests             : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2019-11-21 13:46:12.374  INFO 6028 --- [main] org.cly.FilmApplicationTests             : No active profile set, falling back to default profiles: default
-2019-11-21 13:46:12.890  WARN 6028 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-11-21 13:46:13.627  INFO 6028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:46:14.169  INFO 6028 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-11-21 13:46:14.504  INFO 6028 --- [main] org.cly.FilmApplicationTests             : Started FilmApplicationTests in 2.496 seconds (JVM running for 3.452)
-2019-11-21 13:46:14.716 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: SELECT COUNT(1) FROM user 
-2019-11-21 13:46:14.844 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 
-2019-11-21 13:46:14.873 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==>  Preparing: select * from user LIMIT ?,? 
-2019-11-21 13:46:14.876 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : ==> Parameters: 0(Long), 2(Long)
-2019-11-21 13:46:14.882 DEBUG 6028 --- [main] org.cly.dao.mapper.UserMapper.getUsers   : <==      Total: 2
-2019-11-21 13:46:14.898  INFO 6028 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-11-21 13:46:14.905  INFO 6028 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-05 13:50:39.287  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 22984 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-12-05 13:50:39.304 DEBUG 22984 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-05 13:50:39.305  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
+2019-12-05 13:50:39.358  INFO 22984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-05 13:50:39.358  INFO 22984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-05 13:50:40.225  WARN 22984 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-12-05 13:50:40.481  INFO 22984 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab77ebe6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-05 13:50:40.794  INFO 22984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-05 13:50:40.814  INFO 22984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 13:50:40.814  INFO 22984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-05 13:50:40.820  INFO 22984 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-05 13:50:40.889  INFO 22984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 13:50:40.889  INFO 22984 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1531 ms
+2019-12-05 13:50:41.368  INFO 22984 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-05 13:50:41.474  INFO 22984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 13:50:41.514  INFO 22984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-05 13:50:41.800  INFO 22984 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-05 13:50:42.058  INFO 22984 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-05 13:50:42.079  INFO 22984 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-05 13:50:42.113  INFO 22984 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-05 13:50:42.248  INFO 22984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-05 13:50:42.253  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.443 seconds (JVM running for 4.094)
+2019-12-05 13:51:46.508  INFO 22984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 13:51:46.509  INFO 22984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 13:51:46.519  INFO 22984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-05 13:56:36.845  INFO 22984 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-05 13:56:36.849  INFO 22984 --- [Thread-15] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-05 13:56:42.435  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23010 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-12-05 13:56:42.438 DEBUG 23010 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-05 13:56:42.438  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
+2019-12-05 13:56:42.489  INFO 23010 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-05 13:56:42.489  INFO 23010 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-05 13:56:43.253  WARN 23010 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-12-05 13:56:43.477  INFO 23010 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea1a475e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-05 13:56:43.749  INFO 23010 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-05 13:56:43.765  INFO 23010 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 13:56:43.766  INFO 23010 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-05 13:56:43.771  INFO 23010 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-05 13:56:43.827  INFO 23010 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 13:56:43.827  INFO 23010 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2019-12-05 13:56:44.250  INFO 23010 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-05 13:56:44.344  INFO 23010 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 13:56:44.378  INFO 23010 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-05 13:56:44.622  INFO 23010 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-05 13:56:44.853  INFO 23010 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-05 13:56:44.868  INFO 23010 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-05 13:56:44.895  INFO 23010 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-05 13:56:45.010  INFO 23010 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-05 13:56:45.014  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 2.999 seconds (JVM running for 3.633)
+2019-12-05 13:57:27.277  INFO 23010 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 13:57:27.278  INFO 23010 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 13:57:27.283  INFO 23010 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-05 13:59:51.583  INFO 23010 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-05 13:59:51.588  INFO 23010 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-05 13:59:55.827  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23027 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-12-05 13:59:55.830 DEBUG 23027 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-05 13:59:55.831  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
+2019-12-05 13:59:55.892  INFO 23027 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-05 13:59:55.893  INFO 23027 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-05 13:59:56.730  WARN 23027 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-12-05 13:59:56.985  INFO 23027 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e171f352] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-05 13:59:57.268  INFO 23027 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-05 13:59:57.284  INFO 23027 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 13:59:57.284  INFO 23027 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-05 13:59:57.289  INFO 23027 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-05 13:59:57.355  INFO 23027 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 13:59:57.356  INFO 23027 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1463 ms
+2019-12-05 13:59:57.774  INFO 23027 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-05 13:59:57.870  INFO 23027 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 13:59:57.904  INFO 23027 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-05 13:59:58.146  INFO 23027 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-05 13:59:58.382  INFO 23027 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-05 13:59:58.397  INFO 23027 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-05 13:59:58.424  INFO 23027 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-05 13:59:58.541  INFO 23027 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-05 13:59:58.544  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.108 seconds (JVM running for 3.632)
+2019-12-05 14:00:25.770  INFO 23027 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:00:25.770  INFO 23027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:00:25.777  INFO 23027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-12-05 14:01:27.767  INFO 23027 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:01:27.771  INFO 23027 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-12-05 14:03:59.770  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23076 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-12-05 14:03:59.773 DEBUG 23076 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-05 14:03:59.774  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
+2019-12-05 14:03:59.835  INFO 23076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-05 14:03:59.835  INFO 23076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-05 14:04:00.766  WARN 23076 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
+2019-12-05 14:04:01.027  INFO 23076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b804ae6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-05 14:04:01.352  INFO 23076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-05 14:04:01.370  INFO 23076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-05 14:04:01.370  INFO 23076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-05 14:04:01.376  INFO 23076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-05 14:04:01.440  INFO 23076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-05 14:04:01.440  INFO 23076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1604 ms
+2019-12-05 14:04:01.952  INFO 23076 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-05 14:04:02.062  INFO 23076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-05 14:04:02.107  INFO 23076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-05 14:04:02.398  INFO 23076 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-05 14:04:02.674  INFO 23076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-05 14:04:02.698  INFO 23076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-05 14:04:02.736  INFO 23076 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-05 14:04:02.886  INFO 23076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-05 14:04:02.891  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.602 seconds (JVM running for 4.352)
+2019-12-05 14:04:51.556  INFO 23076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-05 14:04:51.556  INFO 23076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-05 14:04:51.565  INFO 23076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms

@@ -94,7 +94,6 @@ public class EntityGenerator {
 
         // 打印注入设置
         System.err.println(mpg.getCfg().getMap().get("abc"));
-
     }
 
 }
