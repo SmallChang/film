@@ -22,7 +22,7 @@ public class Swagger2Config {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("org.cly.example.dao.controller"))
+                .apis(RequestHandlerSelectors.basePackage("org.cly.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

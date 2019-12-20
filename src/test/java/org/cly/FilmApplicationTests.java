@@ -63,7 +63,7 @@ class FilmApplicationTests {
 	public void updateUserTest(){
 		User user = new User();
 //		user.setUuid(6);
-		user.setUserName("cly");
+		user.setUserName("lfy");
 //		user.setUserPwd("970623");
 
 //		int update = userMapper.updateById(user);

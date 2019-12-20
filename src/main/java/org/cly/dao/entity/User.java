@@ -2,6 +2,12 @@ package org.cly.dao.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.Serializable;
 /**
  * <p>
@@ -11,6 +17,11 @@ import java.io.Serializable;
  * @author changliyao
  * @since 2019-11-18
  */
+@Builder
+@Data
+@Slf4j
+@NoArgsConstructor
+@AllArgsConstructor
 public class User extends Model<User> {
 
     private static final long serialVersionUID = 1L;
@@ -22,41 +33,8 @@ public class User extends Model<User> {
 
     private String userPwd;
 
-    public Integer getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(Integer uuid) {
-        this.uuid = uuid;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getUserPwd() {
-        return userPwd;
-    }
-
-    public void setUserPwd(String userPwd) {
-        this.userPwd = userPwd;
-    }
-
     @Override
     protected Serializable pkVal() {
         return null;
-    }
-
-    @Override
-    public String toString() {
-        return "ExampleUser{" +
-        ", uuid=" + uuid +
-        ", userName=" + userName +
-        ", userPwd=" + userPwd +
-        "}";
     }
 }

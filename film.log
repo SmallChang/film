@@ -1,106 +1,28 @@
-2019-12-05 13:50:39.287  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 22984 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-12-05 13:50:39.304 DEBUG 22984 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-12-05 13:50:39.305  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
-2019-12-05 13:50:39.358  INFO 22984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-12-05 13:50:39.358  INFO 22984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-12-05 13:50:40.225  WARN 22984 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-12-05 13:50:40.481  INFO 22984 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab77ebe6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-12-05 13:50:40.794  INFO 22984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-12-05 13:50:40.814  INFO 22984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-05 13:50:40.814  INFO 22984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-12-05 13:50:40.820  INFO 22984 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-12-05 13:50:40.889  INFO 22984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-05 13:50:40.889  INFO 22984 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1531 ms
-2019-12-05 13:50:41.368  INFO 22984 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-12-05 13:50:41.474  INFO 22984 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-05 13:50:41.514  INFO 22984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-12-05 13:50:41.800  INFO 22984 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-12-05 13:50:42.058  INFO 22984 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-12-05 13:50:42.079  INFO 22984 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-12-05 13:50:42.113  INFO 22984 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-12-05 13:50:42.248  INFO 22984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-12-05 13:50:42.253  INFO 22984 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.443 seconds (JVM running for 4.094)
-2019-12-05 13:51:46.508  INFO 22984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-05 13:51:46.509  INFO 22984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-05 13:51:46.519  INFO 22984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-12-05 13:56:36.845  INFO 22984 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-12-05 13:56:36.849  INFO 22984 --- [Thread-15] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-12-05 13:56:42.435  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23010 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-12-05 13:56:42.438 DEBUG 23010 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-12-05 13:56:42.438  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
-2019-12-05 13:56:42.489  INFO 23010 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-12-05 13:56:42.489  INFO 23010 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-12-05 13:56:43.253  WARN 23010 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-12-05 13:56:43.477  INFO 23010 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea1a475e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-12-05 13:56:43.749  INFO 23010 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-12-05 13:56:43.765  INFO 23010 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-05 13:56:43.766  INFO 23010 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-12-05 13:56:43.771  INFO 23010 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-12-05 13:56:43.827  INFO 23010 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-05 13:56:43.827  INFO 23010 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
-2019-12-05 13:56:44.250  INFO 23010 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-12-05 13:56:44.344  INFO 23010 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-05 13:56:44.378  INFO 23010 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-12-05 13:56:44.622  INFO 23010 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-12-05 13:56:44.853  INFO 23010 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-12-05 13:56:44.868  INFO 23010 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-12-05 13:56:44.895  INFO 23010 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-12-05 13:56:45.010  INFO 23010 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-12-05 13:56:45.014  INFO 23010 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 2.999 seconds (JVM running for 3.633)
-2019-12-05 13:57:27.277  INFO 23010 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-05 13:57:27.278  INFO 23010 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-05 13:57:27.283  INFO 23010 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2019-12-05 13:59:51.583  INFO 23010 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-12-05 13:59:51.588  INFO 23010 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-12-05 13:59:55.827  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23027 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-12-05 13:59:55.830 DEBUG 23027 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-12-05 13:59:55.831  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
-2019-12-05 13:59:55.892  INFO 23027 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-12-05 13:59:55.893  INFO 23027 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-12-05 13:59:56.730  WARN 23027 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-12-05 13:59:56.985  INFO 23027 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e171f352] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-12-05 13:59:57.268  INFO 23027 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-12-05 13:59:57.284  INFO 23027 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-05 13:59:57.284  INFO 23027 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-12-05 13:59:57.289  INFO 23027 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-12-05 13:59:57.355  INFO 23027 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-05 13:59:57.356  INFO 23027 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1463 ms
-2019-12-05 13:59:57.774  INFO 23027 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-12-05 13:59:57.870  INFO 23027 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-05 13:59:57.904  INFO 23027 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-12-05 13:59:58.146  INFO 23027 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-12-05 13:59:58.382  INFO 23027 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-12-05 13:59:58.397  INFO 23027 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-12-05 13:59:58.424  INFO 23027 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-12-05 13:59:58.541  INFO 23027 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-12-05 13:59:58.544  INFO 23027 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.108 seconds (JVM running for 3.632)
-2019-12-05 14:00:25.770  INFO 23027 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-05 14:00:25.770  INFO 23027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-05 14:00:25.777  INFO 23027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2019-12-05 14:01:27.767  INFO 23027 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-12-05 14:01:27.771  INFO 23027 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
-2019-12-05 14:03:59.770  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 23076 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
-2019-12-05 14:03:59.773 DEBUG 23076 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-12-05 14:03:59.774  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
-2019-12-05 14:03:59.835  INFO 23076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-12-05 14:03:59.835  INFO 23076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-12-05 14:04:00.766  WARN 23076 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[org.cly]' package. Please check your configuration.
-2019-12-05 14:04:01.027  INFO 23076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b804ae6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-12-05 14:04:01.352  INFO 23076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-12-05 14:04:01.370  INFO 23076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-05 14:04:01.370  INFO 23076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
-2019-12-05 14:04:01.376  INFO 23076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-12-05 14:04:01.440  INFO 23076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-05 14:04:01.440  INFO 23076 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1604 ms
-2019-12-05 14:04:01.952  INFO 23076 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2019-12-05 14:04:02.062  INFO 23076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-12-05 14:04:02.107  INFO 23076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-12-05 14:04:02.398  INFO 23076 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
-2019-12-05 14:04:02.674  INFO 23076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2019-12-05 14:04:02.698  INFO 23076 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-12-05 14:04:02.736  INFO 23076 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-12-05 14:04:02.886  INFO 23076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-12-05 14:04:02.891  INFO 23076 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 3.602 seconds (JVM running for 4.352)
-2019-12-05 14:04:51.556  INFO 23076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-12-05 14:04:51.556  INFO 23076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-12-05 14:04:51.565  INFO 23076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-12-19 13:14:24.488  INFO 62038 --- [restartedMain] org.cly.FilmApplication                  : Starting FilmApplication on changliyaodeMacBook-Pro.local with PID 62038 (/Users/changliyao/StudyProjects/film/target/classes started by changliyao in /Users/changliyao/StudyProjects/film)
+2019-12-19 13:14:24.494 DEBUG 62038 --- [restartedMain] org.cly.FilmApplication                  : Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-12-19 13:14:24.497  INFO 62038 --- [restartedMain] org.cly.FilmApplication                  : No active profile set, falling back to default profiles: default
+2019-12-19 13:14:24.562  INFO 62038 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-19 13:14:24.563  INFO 62038 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-19 13:14:25.942  INFO 62038 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d439af58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-19 13:14:26.369  INFO 62038 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-19 13:14:26.401  INFO 62038 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-19 13:14:26.402  INFO 62038 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-19 13:14:26.410  INFO 62038 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/changliyao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-12-19 13:14:26.484  INFO 62038 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-19 13:14:26.484  INFO 62038 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1921 ms
+2019-12-19 13:14:27.052  INFO 62038 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-12-19 13:14:27.256 DEBUG 62038 --- [restartedMain] o.c.controller.common.filter.AuthFilter  : Filter 'jwtAuthenticationTokenFilter' configured for use
+2019-12-19 13:14:27.710  INFO 62038 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-12-19 13:14:27.850  INFO 62038 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-19 13:14:27.894  INFO 62038 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-19 13:14:28.086  INFO 62038 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-12-19 13:14:28.106  INFO 62038 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-12-19 13:14:28.134  INFO 62038 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-12-19 13:14:28.248  INFO 62038 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUserInfoUsingPOST_1
+2019-12-19 13:14:28.302  INFO 62038 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-19 13:14:28.307  INFO 62038 --- [restartedMain] org.cly.FilmApplication                  : Started FilmApplication in 4.545 seconds (JVM running for 5.468)
+2019-12-19 13:15:30.571  INFO 62038 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-19 13:15:30.572  INFO 62038 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-19 13:15:30.582  INFO 62038 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-12-19 15:40:06.640  INFO 62038 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-19 15:40:06.653  INFO 62038 --- [Thread-17] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

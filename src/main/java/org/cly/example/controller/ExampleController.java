@@ -1,4 +1,4 @@
-package org.cly.example.dao.controller;
+package org.cly.example.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
